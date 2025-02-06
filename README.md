@@ -4,10 +4,7 @@ This script allows you to run `terraform plan`, `terraform apply`, and `terrafor
 
 ## Purpose
 
-This script is designed to:
-- Run `terraform plan` only for the Terraform files listed in `target.txt`.
-- Perform `terraform apply` or `terraform destroy` on the targeted files, with an optional confirmation step.
-- Provide an easy way to automate the `plan`, `apply`, and `destroy` commands on a selective set of Terraform files.
+This script is designed to provide an easy way to automate the `plan`, `apply`, and `destroy` commands on a selective set of Terraform files.
 
 ## Prerequisites
 
@@ -27,7 +24,7 @@ To make the `tftarget.sh` script executable, run the following command:
 
 ### 2. Create a `target.txt` file
 
-Create a file named `target.txt` in the `terraform/` folder. This file should contain the names of the Terraform files you want to run commands for, each on a new line, and file should end with an extra line. For example:
+Create a file named `target.txt` in the `terraform/` folder. This file should contain the names of the Terraform files you want to run commands for, each on a new line, and file should end with an extra line. Make sure that target.txt ends with a trailing newline. For example:
 ```
 s3.tf 
 ebs.tf 
