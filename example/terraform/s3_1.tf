@@ -52,5 +52,5 @@ module "ecr" {
 
 resource "aws_cloudwatch_log_group" "example" {
   name              = "noor-example-log-group-resource"
-  retention_in_days = 1 
+  retention_in_days = 1
 }

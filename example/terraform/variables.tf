@@ -1,27 +1,27 @@
 # variables.tf
 
 variable "environment" {
-  description = "Environment Variable"
+  description = "Environment"
   type        = string
-  default     = "dev"
+  default     = null
 }
 
 variable "aws_region" {
-  description = "The AWS region to deploy the resources"
+  description = "AWS Region"
   type        = string
-  default     = "us-east-1" # Choose the region for your S3 bucket
+  default     = null
 }
 
 variable "s3_first_bucket_name" {
-  type        = string
-  default     = null
+  type    = string
+  default = null
 }
 variable "s3_second_bucket_name" {
-  type        = string
-  default     = null
+  type    = string
+  default = null
 }
 variable "s3_third_bucket_name" {
-  type        = string
-  default     = null
+  type    = string
+  default = null
 }
 
