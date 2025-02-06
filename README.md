@@ -12,7 +12,6 @@ This script is designed to:
 ## Prerequisites
 
 Before running the script, ensure that:
-- You have [Terraform](https://www.terraform.io/downloads) installed.
 - The `target.txt` file exists in your Terraform directory and contains the list of files to include for Terraform operations (e.g., `s3.tf`, `ebs.tf`).
 - The script `tftarget.sh` should be located in the `terraform/` folder, next to `target.txt`.
 - The script has been made executable.
