@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Noor Sabahi - Principal AI Engineer
 # Check if a valid command is passed (plan, apply, destroy)
 if [[ "$1" != "plan" && "$1" != "apply" && "$1" != "destroy" ]]; then
   echo "Usage: $0 {plan|apply|destroy} [auto-approve]"

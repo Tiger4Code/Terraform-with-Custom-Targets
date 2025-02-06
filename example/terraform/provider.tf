@@ -3,7 +3,7 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Project     = "Deploy Lambda with Container Image"
+      Project     = "Selective tf execution"
       Owners      = "Noor"
       Provisioner = "Terraform"
     }
