@@ -28,10 +28,11 @@ To make the `tf-target.sh` script executable, run the following command:
 ### 2. Create a `target.txt` file
 
 Create a file named `target.txt` in the `terraform/` folder. This file should contain the names of the Terraform files you want to run commands for, each on a new line. For example:
+```
 s3.tf 
 ebs.tf 
 ecr.tf
-
+```
 
 This allows you to specify only the Terraform files you want to work with (for example, `s3.tf`, `ebs.tf`, and `ecr.tf`) while excluding others like `vpc.tf` or `aks.tf` from the operation.
 
