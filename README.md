@@ -91,31 +91,6 @@ You can now run the script with the following commands:
 
 For both plan and destroy, if "y" is not provided, you will be prompted for confirmation before applying or destroying the changes.
 
-### 5. Example Usage
-To view a plan for s3.tf, ebs.tf, and ecr.tf:
-```
-./tf-target.sh plan
-```
-To apply the plan automatically:
-```
-./tf-target.sh plan y
-```
-To apply changes to s3.tf, ebs.tf, and ecr.tf:
-```
-./tf-target.sh apply
-```
-To automatically apply changes without confirmation:
-```
-./tf-target.sh apply y
-```
-To destroy resources defined in the s3.tf, ebs.tf, and ecr.tf files:
-```
-./tf-target.sh destroy
-```
-To automatically approve the destruction:
-```
-./tf-target.sh destroy y
-```
 
 ### Troubleshooting
 
@@ -123,3 +98,6 @@ To automatically approve the destruction:
 - Invalid command: If you pass an invalid command (not plan, apply, or destroy), the script will display a usage message and exit. Ensure you use one of the valid commands.
 
 
+## Author
+
+This script was created by Noor Sabahi, a Principal AI Engineer (Tiger4Code). Feel free to reach out if you have any questions or suggestions.
