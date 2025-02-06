@@ -1,0 +1,25 @@
+# ---- Terraform ----
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+backend.tf
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore crash logs
+crash.log
+
+
+# ---- IDE/Editor Specific ----
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+README.txt
