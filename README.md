@@ -69,7 +69,7 @@ You can now run the script with the following commands:
 ```
 
 ### 4. Workflow Explanation
-- plan: This command will show you a preview of the changes to be made to the resources specified in the files listed in target.txt. If "y" is passed, the plan will be automatically approved for the next step.
+- plan: This command will show you a preview of the changes to be made to the resources specified in the files listed in target.txt. 
 - apply: This command applies the changes defined in the files listed in target.txt. If "y" is passed, the apply will be automatically approved.
 - destroy: This command will destroy the resources defined in the files listed in target.txt. If "y" is passed, the destruction will be automatically approved.
 
