@@ -84,4 +84,4 @@ For both plan and destroy, if "y" is not provided, you will be prompted for conf
 
 ## Author
 
-This script was created by Noor Sabahi, a Principal AI Engineer (Tiger4Code). Feel free to reach out if you have any questions or suggestions.
+This script was created by Noor Sabahi, a Principal AI Engineer ([Tiger4Code](https://www.youtube.com/@tiger4code)). Feel free to reach out if you have any questions or suggestions.
