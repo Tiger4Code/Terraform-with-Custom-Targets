@@ -14,15 +14,16 @@ This script is designed to:
 Before running the script, ensure that:
 - You have [Terraform](https://www.terraform.io/downloads) installed.
 - The `target.txt` file exists in your Terraform directory and contains the list of files to include for Terraform operations (e.g., `s3.tf`, `ebs.tf`).
+- The script `tftarget.sh` should be located in the `terraform/` folder, next to `target.txt`.
 - The script has been made executable.
 
 ## How to Use the Script
 
 ### 1. Make the script executable
 
-To make the `tf-target.sh` script executable, run the following command:
+To make the `tftarget.sh` script executable, run the following command:
 ```bash
-   chmod +x tf-target.sh
+   chmod +x tftarget.sh
 ```
 
 ### 2. Create a `target.txt` file
@@ -42,12 +43,12 @@ You can now run the script with the following commands:
 
 #### Run `terraform plan` for the files in `target.txt`:
 ```bash
-   ./tf-target.sh plan
+   ./tftarget.sh plan
 ```
 #### Run terraform plan and automatically approve the plan:
 
 ```bash
-    ./tf-target.sh plan y
+    ./tftarget.sh plan y
 ```
 
 ### 3. Run the script
@@ -56,32 +57,32 @@ You can now run the script with the following commands:
 
 #### Run `terraform plan` for the files in `target.txt`:
 ```bash
-./tf-target.sh plan
+./tftarget.sh plan
 ```
 
 #### Run terraform plan and automatically approve the plan:
 ```
-./tf-target.sh plan y
+./tftarget.sh plan y
 ```
 
 #### Run terraform apply for the files in target.txt:
 ```
-./tf-target.sh apply
+./tftarget.sh apply
 ```
 
 #### Run terraform apply and automatically approve the apply:
 ```
-./tf-target.sh apply y
+./tftarget.sh apply y
 ```
 
 #### Run terraform destroy for the files in target.txt:
 ```
-./tf-target.sh destroy
+./tftarget.sh destroy
 ```
 
 #### Run terraform destroy and automatically approve the destruction:
 ```
-./tf-target.sh destroy y
+./tftarget.sh destroy y
 ```
 
 ### 4. Workflow Explanation
