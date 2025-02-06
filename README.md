@@ -5,8 +5,8 @@ This script allows you to run `terraform plan`, `terraform apply`, and `terrafor
 ## Purpose
 
 This script is designed to:
-- Run `terraform plan` or `terraform apply` only for the Terraform files listed in `target.txt`.
-- Perform `terraform destroy` on the targeted files, with an optional confirmation step.
+- Run `terraform plan` only for the Terraform files listed in `target.txt`.
+- Perform `terraform apply` or `terraform destroy` on the targeted files, with an optional confirmation step.
 - Provide an easy way to automate the `plan`, `apply`, and `destroy` commands on a selective set of Terraform files.
 
 ## Prerequisites
